@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <h2>Details page</h2>
+    <h3>{{question.title}}</h3>
+    <p> Polls is created by {{question.created_by.first_name}}</p>
+{% endblock content %}
+
